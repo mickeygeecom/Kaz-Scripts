@@ -8,3 +8,11 @@ Start kaz_usedvehicles
 
 
 Good to go.
+
+Tak til dem som hjalp med testing
+
+Specielt:
+
+𝓛𝓮𝓑𝓻𝓸𝓷				𝓛𝓮𝓑𝓻𝓸𝓷#8534
+
+Kure				Kure#5100
