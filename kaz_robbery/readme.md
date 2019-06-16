@@ -12,7 +12,9 @@ Insert into: Vrp/Cfg/items.lua:
 Edit Config file (kaz_robbery/cfg/bank.lua)
 
 Open server_resources and add: 
+
 Start kaz_robbery
+
 start mhacking
 
 Good to go.
