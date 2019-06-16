@@ -13,4 +13,5 @@ Eftersom jeg har lagt dem offentligt tilgængeligt, håber jeg på at folk vil a
 * Et tag i changelog, ved indførelse af mine scripts.
 * Ingen renaming af scriptsne.
 * En besked på discord i stil med: "Hej Kazoon. Vi har lagt dit "kaz_robbery" ind på [SERVERNAME]. 
+
 (Så jeg har en ide om hvor det bliver brugt og kan følge med)
