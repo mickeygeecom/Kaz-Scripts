@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+	width: 1200px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.jobget {
+	position: relative;
+	top: 50%;
+	left: 37%;
+	transform: translate(-50%);
+	text-decoration: none;
+	padding: 10px;
+	border: 3px solid #353b48;
+	transition: .5s;
+	font: bold;
+	font-weight: 600;
+	background-color: white;
+	color: #4cd137;
+	cursor: pointer;
+	font-family: arvo;
+	margin: 0 auto;
+}
+
+#lateral {
+	width: 740px;
+	height: 97.9%;
+	padding: 5px;
+	background-color: #273c75;
+	float: left;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family: arvo;
+}
+
+
+
+#lateral::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-button       { /* 2 */ }
+::-webkit-scrollbar-track   {
+	color: #bdc3c7;
+}
+::-webkit-scrollbar-track-piece  {
+	background-color: #95a5a6;
+}
+::-webkit-scrollbar-thumb        {
+	background-color: #2c3e50;
+	height: 10px;
+}
+::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-resizer                { /* 7 */ }
+
+#lateral ul {
+	list-style: none;
+}
+
+#lateral ul li {
+	color: black;
+	margin: 16px;
+	font-family: hind;
+}
+
+#lateral ul li h1 {
+	font-family: arvo;
+	border-bottom: none;
+	color: #dcd
+}
+
+#lateral ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+#lateral ul li a:hover {
+	transform: scale(1.05);
+	color: #dcd
+}
+
+#frame {
+	width: 450px;
+	height: 499.9px;
+}
