@@ -5,6 +5,7 @@ Indsæt kaz_robbery og mhacking ind i resources..
 Insert into: Vrp/Cfg/items.lua:
 
   ["virus"] = {"Virus", "Virus til bankrøveri.", nil , 1},
+  
   ["svejser"] = {"Skære Brænder", "Bruges til bankrøverier", nil , 1},
 
 
