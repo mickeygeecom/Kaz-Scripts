@@ -174,27 +174,6 @@ Citizen.CreateThread(function()
 	end
 end)
 
---testcirkel
-Citizen.CreateThread(function()
-	local ped = GetPlayerPed(-1)
-	while true do
-		Citizen.Wait(0)
-		local PlayerPos = GetEntityCoords(PlayerPedId(), true)
-		if GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), 1213.9503173828, 2720.6611328125, 38.0041847229, true ) > 20 then
-		elseif GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), 1213.9503173828, 2720.6611328125, 38.0041847229, true ) > 2 then
-			DrawMarker(27,1213.9503173828, 2720.6611328125, 38.0041847229-1,0,0,0,0,0,Rotation,1.501,1.5001,0.5001,255,0,0,200,0,0,0,true)
-		elseif GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), 1213.9503173828, 2720.6611328125, 38.0041847229, true ) < 2 then
-			DrawText3Ds(1213.9503173828, 2720.6611328125, 38.0041847229, "~w~Tryk [~g~E~w~] for at teste.", 3.0, 7)
-			DrawMarker(27,1213.9503173828, 2720.6611328125, 38.0041847229-1,0,0,0,0,0,Rotation,1.501,1.5001,0.5001,255,0,0,200,0,0,0,true)
-			vehSR_drawTxt("[~g~E~s~] for at gennemse køretøjer",0,1,0.5,0.8,0.6,255,255,255,255)
-					if IsControlJustPressed(1, key) then
-						TriggerEvent("kaz:refresh", player)
-					end
-		end
-	end
-end)
--- testcirkel
-
 
 Citizen.CreateThread(function()
 	local ped = GetPlayerPed(-1)
