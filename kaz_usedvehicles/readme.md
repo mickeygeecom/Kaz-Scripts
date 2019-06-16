@@ -1,7 +1,5 @@
 Indsæt kaz_usedvehicles i resources.
 
-into: Vrp/Cfg/items.lua:
-
 
 Edit Config file (kaz_usedvehicles/cfg/cars.lua)
 
