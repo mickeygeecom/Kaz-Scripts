@@ -461,7 +461,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle1 = CreateVehicle(GetHashKey(carmodel1), carpos1.x, carpos1.y, carpos1.z, carpos1.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle1, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle1, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle1, 255, 255, 255)
         FreezeEntityPosition(vehicle1,true)
     end
 	if caramount >= 2 then
@@ -471,7 +472,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle2 = CreateVehicle(GetHashKey(carmodel2), carpos2.x, carpos2.y, carpos2.z, carpos2.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle2, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle2, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle2, 255, 255, 255)
         FreezeEntityPosition(vehicle2,true)
     end
 	if caramount >= 3 then 
@@ -481,7 +483,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle3 = CreateVehicle(GetHashKey(carmodel3), carpos3.x, carpos3.y, carpos3.z, carpos3.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle3, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle3, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle3, 255, 255, 255)
         FreezeEntityPosition(vehicle3,true)
     end
 	if caramount >= 4 then 
@@ -491,7 +494,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle4 = CreateVehicle(GetHashKey(carmodel4), carpos4.x, carpos4.y, carpos4.z, carpos4.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle4, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle4, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle4, 255, 255, 255)
         FreezeEntityPosition(vehicle4,true)
     end
 	if caramount >= 5 then 
@@ -501,7 +505,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle5 = CreateVehicle(GetHashKey(carmodel5), carpos5.x, carpos5.y, carpos5.z, carpos5.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle5, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle5, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle5, 255, 255, 255)
         FreezeEntityPosition(vehicle5,true)
     end
 	if caramount >= 6 then 
@@ -511,7 +516,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle6 = CreateVehicle(GetHashKey(carmodel6), carpos6.x, carpos6.y, carpos6.z, carpos6.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle6, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle6, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle6, 255, 255, 255)
         FreezeEntityPosition(vehicle6,true)
     end
 	if caramount >= 7 then 
@@ -521,7 +527,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle7 = CreateVehicle(GetHashKey(carmodel7), carpos7.x, carpos7.y, carpos7.z, carpos7.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle7, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle7, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle7, 255, 255, 255)
         FreezeEntityPosition(vehicle7,true)
     end
 	if caramount >= 8 then 
@@ -531,7 +538,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle8 = CreateVehicle(GetHashKey(carmodel8), carpos8.x, carpos8.y, carpos8.z, carpos8.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle8, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle8, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle8, 255, 255, 255)
         FreezeEntityPosition(vehicle8,true)
     end
 	if caramount >= 9 then
@@ -541,7 +549,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle9 = CreateVehicle(GetHashKey(carmodel9), carpos9.x, carpos9.y, carpos9.z, carpos9.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle9, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle9, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle9, 255, 255, 255)
         FreezeEntityPosition(vehicle9,true)
     end
 	if caramount >= 10 then
@@ -551,7 +560,8 @@ AddEventHandler("kaz:refresh", function()
             Wait(50)
         end
         local vehicle10 = CreateVehicle(GetHashKey(carmodel10), carpos10.x, carpos10.y, carpos10.z, carpos10.h, false, false)
-		SetVehicleCustomPrimaryColour(vehicle10, 255, 0, 0)
+		SetVehicleCustomPrimaryColour(vehicle10, 255, 255, 255)
+		SetVehicleCustomSecondaryColour(vehicle10, 255, 255, 255)
         FreezeEntityPosition(vehicle10,true)
     end
 end)
