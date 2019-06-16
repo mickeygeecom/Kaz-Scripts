@@ -10,18 +10,18 @@ cfg.cooldown = 2400 -- tid mellem røverierne i banken. (Én time)
 cfg.cops = 0 -- minimum betjente på arbejde.
 cfg.permission = "bank.police" -- tilladelse givet til politiet.
 
-cfg.pengereward = 125000
-cfg.pengerewardhoj = 200000
-cfg.bandit = "Civil" 
-cfg.politi = "Politi-Job"
-cfg.key = 38
-cfg.pris = 1
-cfg.mm = { ['x'] = 705.86846923828, ['y'] = -964.4150390625, ['z'] = 29.408239364624 }
-cfg.svej = { ['x'] = 2608.6884765625, ['y'] = 2806.0092773438, ['z'] = 33.725120544434 }
+cfg.pengereward = 125000 -- MINIMUMS BELØB PR CIRKEL (SE BORT FRA DEM UNDER CFG.BANKS)
+cfg.pengerewardhoj = 200000 -- MAXIMUMS BELØB PR CIRKEL
+cfg.bandit = "Civil" -- KRIMINELT JOB KRÆVET
+cfg.politi = "Politi-Job" -- POLITI JOB KRÆVET
+cfg.key = 38 -- MEST BRUGTE KEY
+cfg.pris = 1 -- PRIS PÅ VIRUS ( Evt. 50.000 eller lign, skal jo nødig bruges til at meta om der er politi på// hvor mange)
+cfg.mm = { ['x'] = 705.86846923828, ['y'] = -964.4150390625, ['z'] = 29.408239364624 } -- MASTERMIND KORDINATER
+cfg.svej = { ['x'] = 2608.6884765625, ['y'] = 2806.0092773438, ['z'] = 33.725120544434 } -- SKÆRE BRÆNDER STJÆLNINGS KORDINATER
 
-cfg.Speed = 0.4
-cfg.CodeNeeded = true
-cfg.Code = 'cnhacking'
+cfg.Speed = 0.4 -- HASTIGHED PÅ DØRENE
+cfg.CodeNeeded = true -- BRUGES IKKE
+cfg.Code = 'cnhacking' -- BRUGES IKKE
 
 
 cfg.banks = { -- liste af bankene
